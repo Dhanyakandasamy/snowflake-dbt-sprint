@@ -221,3 +221,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# dbt
+target/
+dbt_packages/
+logs/
+profiles.yml
+
+# Keys and secrets
+.env
+*.p8
+*.pem
